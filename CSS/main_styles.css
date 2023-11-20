@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto+Condensed:wght@300&display=swap');
+
+body{
+    font-family: 'Open Sans', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.5rem;
+    background-color: #eee;
+    margin: 0;
+}
+
+#wrapper{
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 1rem;
+}
+
+/* nav{
+   background-color: rgba(0,0,0,0.5); 
+} */
+#nav1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap:1rem;
+    background-color: rgba(0,0,0,0.5);
+    padding: .5rem;
+}
+
+#nav1{
+    list-style-type: none;
+}
+
+#nav1 li a{
+padding:.5rem;
+text-wrap: nowrap;
+outline: 1px solid rgb(255, 255, 255);
+display: block;
+color: #ffffff;
+text-decoration: none;
+}
